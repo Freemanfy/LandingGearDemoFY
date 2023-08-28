@@ -1,0 +1,15 @@
+﻿Station ID: LandingGear Tester,,,,
+,,,,
+#Aliases,,,,
+Aliase,VeriStand Channel Name,,,
+N Motor Current,Aliases/Test LGCU N Motor Current,,,
+N Resolver Setpoint,Aliases/Calibrated Test Gear Degree,,,
+N Resolver PV,Aliases/Calibrated Proto Gear Degree,,,
+,,,,
+#NumericLimitTest,,,,
+Test Name,Channel Name,Low Limit,High Limit,Report Table Bookmark
+N Motor Current Limit Test,N Motor Current,-0.2,0.4,Table_Test_NMotorCurrent
+,,,,
+#NumericAccuracyTest,,,,
+Test Name,Setpoint Channel Name,Process Value Channel Name,Accuracy Limit [%],Report Table Bookmark
+LGCU N Resolver Accuracy Test,N Resolver Setpoint,N Resolver PV,10,Table_Test_NResolver

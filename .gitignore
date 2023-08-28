@@ -1,0 +1,8 @@
+/**/_TEST
+#/TestStand/Reports/*.html
+#/TestStand/Logging/*.tdms
+#/TestStand/DIAdem/*.pdf
+*.tdms_index
+/**/.cache
+*.aliases
+*.lvlps

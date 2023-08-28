@@ -1,0 +1,23 @@
+This file describes changes of different versions of Pickering veristand driver for Pickering simulation modules.
+These modules are typically Pickering cards with model number 41-XXX-XXX.
+Modules consist of power supplies, battery simulators, amplifiers etc.
+
+If model you require is not among suppoted models, please contact pickering support: support@pickeringtest.com
+
+1.0.0
+ - initial release
+ - supported models:
+41-752
+
+1.1.0
+ - change in 41-752 - requires new veristand custom device
+ - new supported model:
+41-760-003
+
+1.1.1
+ - new supported model:
+41-760-004
+
+1.1.2
+ - new supported model:
+41-760-001

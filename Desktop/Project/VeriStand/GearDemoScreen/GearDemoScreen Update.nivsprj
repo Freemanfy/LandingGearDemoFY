@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="AF24A5C480075478BAC1E67A85F12C3C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.1.0.7" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="VeriStand UI Manager Core Components" Name="http://www.ni.com/UIManager.Design" OldestCompatibleVersion="4.0.0.1" Version="4.0.0.49153" />
+		<ApplicationVersionInfo Build="6.1.0.52304" Name="VeriStand.UIManager" Version="6.1.0.52304" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="3" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="4" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition IPAddress="localhost" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="&quot;C:\\Users\\Tech180\\Desktop\\Project\\VeriStand\\LandingGearDemo 11June Backup.nivssdf&quot;" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="6" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="GearPanel.nivsscr" StoragePath="GearPanel.nivsscr" />
+			<SourceFileReference Id="8" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Flight.nivsscr" StoragePath="Flight.nivsscr" />
+			<SourceFileReference Id="12" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Interrogation Tool.nivsscr" StoragePath="Interrogation Tool.nivsscr" />
+			<EmbeddedDefinitionReference Id="15" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LandingGearDemo 11June Backup.nivssdf">
+				<ExternalFile>
+					<p.StoragePath>"..\\LandingGearDemo 11June Backup.nivssdf"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

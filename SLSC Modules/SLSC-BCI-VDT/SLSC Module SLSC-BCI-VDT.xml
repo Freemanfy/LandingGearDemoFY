@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>SLSC Plug-ins::SLSC-BCI-VDT</eng>
+		<loc>SLSC Plug-ins::SLSC-BCI-VDT</loc>
+	</AddMenu>
+	<Version>1.0.4</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>35b0d5f8-b868-422f-a17e-39a126d6b561</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Pharlap\SLSC-BCI-VDT Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\VxWorks\SLSC-BCI-VDT Engine VxWorks.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Linux_32_ARM\SLSC-BCI-VDT Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Linux_x64\SLSC-BCI-VDT Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>SLSC-BCI-VDT</eng>
+				<loc>SLSC-BCI-VDT</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>35b0d5f8-b868-422f-a17e-39a126d6b561</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\SLSC_Module.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>07d2f60b-78da-49a9-b986-245f76b0aac1</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\RTM SLSC DisableEnable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b2989eac-398e-4fd7-86aa-8c18b1575d93</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Cal Relays</eng>
+						<loc>Add Cal Relays</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Add Cal Relays.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>bf5ecc45-ba92-43c2-b523-a6b9fa829bd2</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Cal Relays</ID>
+					<Glyph>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\add.png</Path>
+					</Glyph>
+					<Type>Dialog</Type>
+					<ReferencedGUID>b2989eac-398e-4fd7-86aa-8c18b1575d93</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Cal Relays</eng>
+						<loc>Add Cal Relays</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Cal Relays</eng>
+						<loc>Add Cal Relays</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Cal Relays</eng>
+						<loc>Add Cal Relays</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>SLSC-BCI-VDT</eng>
+				<loc>SLSC-BCI-VDT</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>4d1be80a-c0e8-46d4-bc5f-72ab4fd102f5</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\SLSC_Module_disable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>07d2f60b-78da-49a9-b986-245f76b0aac1</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\RTM SLSC DisableEnable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>bf5ecc45-ba92-43c2-b523-a6b9fa829bd2</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Interface</eng>
+				<loc>Channel Interface</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>02766d74-9362-4da2-bc88-8a0f6be687df</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Channel Interface.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Incoming Channels</eng>
+				<loc>Incoming Channels</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7560d62f-4534-4311-8abb-5bd064b6a9e1</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Incoming Channels.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Outgoing Channels</eng>
+				<loc>Outgoing Channels</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>560163d6-8996-4afd-9252-3f28f3c2f690</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Outgoing Channels.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>b2a5544c-9026-49f1-8502-04b89f8c8429</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\system variable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Status Channel Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Command Channels</eng>
+				<loc>Command Channels</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>be53ed8f-0323-4eb5-8c17-abd490fb2dfd</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet frame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Command Channel Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Front Panel Connector</eng>
+				<loc>Front Panel Connector</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>485a5dcd-e369-4168-b7c4-e3fc5a918aa0</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\connector.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\FP Connector Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>040071de-5742-455d-84a3-71449e3f9e74</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Add Sensor</eng>
+						<loc>Add Sensor</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Add Sensor.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Sensor</ID>
+					<Glyph>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\add.png</Path>
+					</Glyph>
+					<Type>Dialog</Type>
+					<ReferencedGUID>040071de-5742-455d-84a3-71449e3f9e74</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Sensor</eng>
+						<loc>Add Sensor</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Sensor</eng>
+						<loc>Add Sensor</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Sensor</eng>
+						<loc>Add Sensor</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Sensor</eng>
+				<loc>Sensor</loc>
+			</Name>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>df747f64-a864-4a2a-84ec-0ca202851208</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\sensor.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Sensor Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>ba5b6b3a-eb1f-4a23-8bb4-2511d05ef647</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Add Relays</eng>
+						<loc>Add Relays</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Add Relays.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Relays</ID>
+					<Glyph>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\add.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>ba5b6b3a-eb1f-4a23-8bb4-2511d05ef647</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Relays</eng>
+						<loc>Add Relays</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Relays</eng>
+						<loc>Add Relays</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Relays</eng>
+						<loc>Add Relays</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnDelete>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\ActionVIOnDelete - Sensor.vi</Path>
+			</ActionVIOnDelete>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Relay Section</eng>
+				<loc>Relay Section</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>6bd30204-1afa-4cd4-9130-736e073a5e7f</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\relay.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Relay Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Relay Channel</eng>
+				<loc>Relay Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>e19464d0-4b51-41c7-9034-ecab2a767a45</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Relay Channel.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Sensor Input Page</eng>
+				<loc>Sensor Input Page</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>14c15d77-28eb-4e45-8548-80bf442096a7</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\Sensor Input Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Rear Transition</eng>
+				<loc>Rear Transition</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>996d8ac6-ffb4-4697-9684-290c60c6a040</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\rti.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\RTI - 4-Bank, VHDCI 68 Page.vi</Path>
+			</Item2Launch>
+			<ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\ActionVIOnSave - Check Mappings.vi</Path>
+			</ActionVIOnSave>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Rear Transition</eng>
+				<loc>Rear Transition</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>2c288650-7536-4fd7-9ff0-ce700c61022f</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\Glyphs\rti.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC-BCI-VDT\SLSC-BCI-VDT Configuration.llb\RTI - Custom Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>

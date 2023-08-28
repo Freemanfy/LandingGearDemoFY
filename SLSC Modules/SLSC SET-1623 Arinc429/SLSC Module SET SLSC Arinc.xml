@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>SLSC Plug-ins::SLSC SET Arinc429</eng>
+		<loc>SLSC Plug-ins::SLSC SET Arinc429</loc>
+	</AddMenu>
+	<Dependency>
+		<Type>To Common Doc Dir</Type>
+		<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\HideFromMenu.vi</Path>
+	</Dependency>
+	<Version>1.0.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>cf4f35fb-50d4-4024-87af-4d680ceaf0a3</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\Pharlap\SLSC SET 1623_Arinc429_32Ch Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC Arinc429\SLSC SET 1623_Arinc429_32Ch Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>SLSC SET 1623_Arinc429_32Ch</eng>
+				<loc>SLSC SET 1623_Arinc429_32Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>cf4f35fb-50d4-4024-87af-4d680ceaf0a3</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\Glyphs\SLSC_Module.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>8af2ab1e-75f6-4244-a951-ce1ef9c120a6</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\RTM SLSC DisableEnable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>3264c605-82e0-43e3-bc7f-0218782827ef</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_LoadHWDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d94d35eb-a78d-40fe-9765-50b867a3739c</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_LoadParaDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>55cd3ae1-0482-43c8-abe1-842ad72938ee</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Load Cluster</eng>
+						<loc>Load Cluster</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_LoadFlattenedCluster.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>0bff8962-18ad-4fa8-8290-e8144ad4e171</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_ClearDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_Button1</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\add database.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>3264c605-82e0-43e3-bc7f-0218782827ef</ReferencedGUID>
+					<ButtonText>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Load Hardware</eng>
+						<loc>Load Hardware</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_Button2</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\add database.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d94d35eb-a78d-40fe-9765-50b867a3739c</ReferencedGUID>
+					<ButtonText>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Load Parameter</eng>
+						<loc>Load Parameter</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_Button3</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\EditDelete.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>0bff8962-18ad-4fa8-8290-e8144ad4e171</ReferencedGUID>
+					<ButtonText>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_Button4</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\add database.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>55cd3ae1-0482-43c8-abe1-842ad72938ee</ReferencedGUID>
+					<ButtonText>
+						<eng>Load Cluster File</eng>
+						<loc>Load Cluster File</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Load Cluster File</eng>
+						<loc>Load Cluster File</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Load Cluster File</eng>
+						<loc>Load Cluster File</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>SLSC SET 1623_Arinc429_32Ch</eng>
+				<loc>SLSC SET 1623_Arinc429_32Ch</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>8af2ab1e-75f6-4244-a951-ce1ef9c120a6</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\Glyphs\SLSC_Module_disable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>cf4f35fb-50d4-4024-87af-4d680ceaf0a3</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\RTM SLSC DisableEnable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>3264c605-82e0-43e3-bc7f-0218782827ef</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_LoadHWDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d94d35eb-a78d-40fe-9765-50b867a3739c</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_LoadParaDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>0bff8962-18ad-4fa8-8290-e8144ad4e171</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_ClearDatabase.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_Button1</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\add database.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>3264c605-82e0-43e3-bc7f-0218782827ef</ReferencedGUID>
+					<ButtonText>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Load HW</eng>
+						<loc>Load HW</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_Button2</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\add database.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d94d35eb-a78d-40fe-9765-50b867a3739c</ReferencedGUID>
+					<ButtonText>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Load Para</eng>
+						<loc>Load Para</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_Button3</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\EditDelete.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>0bff8962-18ad-4fa8-8290-e8144ad4e171</ReferencedGUID>
+					<ButtonText>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Clear Database</eng>
+						<loc>Clear Database</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Interface</eng>
+				<loc>Channel Interface</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>bee45acb-6ce4-4e14-b78e-5dedaf8bacaa</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Channel Interface Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Group</eng>
+				<loc>Channel Group</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>b242dbb6-a0b8-480a-8811-e34ab9c29842</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ChnGroup.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Channel Group Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Connector</eng>
+				<loc>Connector</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>f6b298ca-155a-4b70-b667-c00b3167cc05</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ni-can ports.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\SET1623 - Arinc-429 - Connector Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>62535e47-5c68-4df5-b7fd-0d1cae12f4d5</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Add Channel</eng>
+						<loc>Add Channel</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddChannel.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_SET1623_EditChannelGroup</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\ChnGroup.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>62535e47-5c68-4df5-b7fd-0d1cae12f4d5</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Channel</eng>
+						<loc>Add Channel</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Channel</eng>
+						<loc>Add Channel</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Channel</eng>
+						<loc>Add Channel</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel</eng>
+				<loc>Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>18a6c8fb-dccd-47dc-b3c4-7c8480f206ed</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\SET1623 - Arinc-429 - Channel Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>d044a30b-ae76-4817-ac97-0b92d1772652</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Add Label</eng>
+						<loc>Add Label</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddLabel.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_SET1623_AddLabel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d044a30b-ae76-4817-ac97-0b92d1772652</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Label</eng>
+						<loc>Add Label</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Label</eng>
+						<loc>Add Label</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Label</eng>
+						<loc>Add Label</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Word Section Page</eng>
+				<loc>Word Section Page</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>e4ec1f38-e9e3-4bbd-81f8-b069f3a69104</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET RawDataChannel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Word Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>cfa81d66-74c4-44db-ae29-8f479e4d8115</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add SDI</eng>
+						<loc>Add SDI</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddSDIParameter.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>3166beb8-fbe7-4383-83d6-30c557a0024a</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Data</eng>
+						<loc>Add Data</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddDataParameter.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>04837131-ee28-4a12-83ce-86291f2943e7</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add SSM</eng>
+						<loc>Add SSM</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddSSMParameter.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>65af8d91-4ae2-413b-97da-4e21c5f78c98</GUID>
+					<Type>VI</Type>
+					<Name>
+						<eng>Add Parameter...</eng>
+						<loc>Add Parameter...</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddParameter.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>54c2a931-5218-45de-ae1c-6a7f133b73b8</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Parameter For Each Bit</eng>
+						<loc>Add Parameter For Each Bit</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Button_AddParameterForEachBit.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>78d62187-4910-4f09-8d1f-7092a553688c</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>86aa07db-ea07-47cc-bd62-86cec70707e1</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_AIM429_AddSDIChannel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Add Signal.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>cfa81d66-74c4-44db-ae29-8f479e4d8115</ReferencedGUID>
+					<ButtonText>
+						<eng>Add SDI</eng>
+						<loc>Add SDI</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add SDI</eng>
+						<loc>Add SDI</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add SDI</eng>
+						<loc>Add SDI</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_AIM429_AddDataChannel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Add Signal.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>3166beb8-fbe7-4383-83d6-30c557a0024a</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Data</eng>
+						<loc>Add Data</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Data</eng>
+						<loc>Add Data</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Data</eng>
+						<loc>Add Data</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_AIM429_AddSSMChannel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Add Signal.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>04837131-ee28-4a12-83ce-86291f2943e7</ReferencedGUID>
+					<ButtonText>
+						<eng>Add SSM</eng>
+						<loc>Add SSM</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add SSM</eng>
+						<loc>Add SSM</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add SSM</eng>
+						<loc>Add SSM</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_AIM429_AddLabelChannels</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Add Signal.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>65af8d91-4ae2-413b-97da-4e21c5f78c98</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Parameter...</eng>
+						<loc>Add Parameter...</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Parameter...</eng>
+						<loc>Add Parameter...</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Parameter...</eng>
+						<loc>Add Parameter...</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_AIM429_AddLabelBitChannels</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Add RawData Channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>54c2a931-5218-45de-ae1c-6a7f133b73b8</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Parameter For Each Bit</eng>
+						<loc>Add Parameter For Each Bit</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Parameter For Each Bit</eng>
+						<loc>Add Parameter For Each Bit</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Parameter For Each Bit</eng>
+						<loc>Add Parameter For Each Bit</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Parameter Page</eng>
+				<loc>Parameter Page</loc>
+			</Name>
+			<GUID>770dde09-c778-41e9-9617-33481dba2b1d</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Parameter Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status Channel</eng>
+				<loc>Status Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>d3e33749-2383-4fc2-b6e2-5d09447b0931</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\system variable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Status Channel Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Tx Label</eng>
+				<loc>Tx Label</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>3de10a2d-86b8-4eb8-bcdf-c6622f39568b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET RawDataFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Tx Label Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Rx Label</eng>
+				<loc>Rx Label</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>4d0e6328-3e54-4c01-a737-a29a010cd31b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET RawDataFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\Rx Label Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Inputs</eng>
+				<loc>Inputs</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>790a791e-6c41-43d4-a0c9-2614ecf57e1b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\SET1623 - Arinc-429 - Inputs Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Outputs</eng>
+				<loc>Outputs</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>21540b99-34b7-426f-a4ae-42afd9f19ca2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC SET-1623 Arinc429\SLSC SET 1623_Arinc429_32Ch Configuration.llb\SET1623 - Arinc-429 - Outputs Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>

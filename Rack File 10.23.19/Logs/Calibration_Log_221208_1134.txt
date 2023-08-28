@@ -1,0 +1,39 @@
+Dec 08, 2022  11:35:13
+Command: Update
+Files:
+Cals:
+
+
+
+Dec 08, 2022  11:39:56
+Command: Update
+Files:
+Cals:
+	Coeff		Unlocked	1.1892
+
+
+
+Dec 08, 2022  11:40:20
+Command: Update
+Files:
+Cals:
+	Offset		Unlocked	-4.4658
+
+
+
+Dec 08, 2022  11:49:04
+Command: Update
+Files:
+Cals:
+	Offset		Unlocked	-4.2711
+
+
+
+Dec 08, 2022  11:49:07
+Command: Update
+Files:
+Cals:
+	Coeff		Unlocked	1.18
+
+
+

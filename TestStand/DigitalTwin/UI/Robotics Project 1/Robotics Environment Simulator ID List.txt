@@ -1,0 +1,22 @@
+Robot
+		ID: N Gear_R0
+				Sensor
+				Joint
+						ID: Joint_Left
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_LeftTire
+						ID: Joint_J3
+				Actuator
+						ID: Motor_Tire
+						ID: Motor_Arm
+				Robot Component
+						ID: YAK-40_WHITE
+						ID: Beam
+						ID: LandingGearLeft
+						ID: Drive_Left
+						ID: Box_Left
+						ID: Cylinder_Left
+
+
+Obstacle

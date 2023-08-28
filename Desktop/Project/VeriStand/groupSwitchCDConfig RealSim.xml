@@ -1,0 +1,222 @@
+<Groups>
+	<Group>
+	  <Name>Gear RealSim</Name>
+	  <Channels>
+	    <Channel>
+            <Name>Test LGCU N Resolver State1</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU N Resolver State1</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU N Resolver State2</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU N Resolver State2</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU N Resolver State3</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU N Resolver State3</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU N Motor Current State1</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU N Motor Current State1</Path>
+		  </Channel>
+		  <Channel>
+            <Name>Test LGCU N ECU Retract Limit</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N ECU Retract Limit</Path>
+		  </Channel>
+		  <Channel>
+            <Name>Test LGCU N Extend Limit</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N Extend Limit</Path>
+		  </Channel>
+		  <Channel>
+            <Name>Test LGCU N Weight on Wheels</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N Weight on Wheels</Path>
+		  </Channel>		  
+	  </Channels>
+	  <Subgroups/>
+        <States>
+          <State>
+            <StateName>Open</StateName>
+            <StateValue>0</StateValue>
+          </State>
+          <State>
+            <StateName>Connected</StateName>
+            <StateValue>1</StateValue>
+          </State>
+		  <State>
+            <StateName>Real</StateName>
+            <StateValue>2</StateValue>
+          </State>
+        </States>
+	  </Group>
+    <Group>
+        <Name>Panel RealSim</Name>
+        <Channels>
+          <Channel>
+            <Name>Test LGCU Panel L Lamp G State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel L Lamp G State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel L Lamp R State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel L Lamp R State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel N Lamp G State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel N Lamp G State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel N Lamp R State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel N Lamp R State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel WoW Lamp  State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel WoW Lamp  State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel Error Lamp State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel Error Lamp State</Path>
+          </Channel>
+          <Channel>
+            <Name>Test LGCU Panel Buzzer State</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel Buzzer State</Path>
+          </Channel>
+		  <Channel>
+            <Name>Test LGCU Panel Down Command</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel Down Command</Path>
+		  </Channel>
+		  <Channel>
+            <Name>Test LGCU Panel UP Command</Name>
+            <Path>Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel UP Command</Path>
+		  </Channel>
+        </Channels>
+        <Subgroups/>
+        <States>
+          <State>
+            <StateName>Open</StateName>
+            <StateValue>0</StateValue>
+          </State>
+          <State>
+            <StateName>Connected</StateName>
+            <StateValue>1</StateValue>
+          </State>
+		  <State>
+            <StateName>Real</StateName>
+            <StateValue>2</StateValue>
+          </State>
+        </States>
+	  </Group>
+    <Group>
+	  <Name>SimStates</Name>
+	  <Channels/>
+	  <Subgroups>
+	    <Group>
+			<Name>InputStatesSimOnly</Name>
+			<Channels>
+			  <Channel>
+				<Name>Test LGCU L Resolver State1</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU L Resolver State1</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Test LGCU L Resolver State2</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU L Resolver State2</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Test LGCU L Resolver State3</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU L Resolver State3</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Test LGCU L Motor Current State1</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU L Motor Current State1</Path>
+			  </Channel>
+			</Channels>
+			<Subgroups/>
+			<States>
+			  <State>
+				<StateName>Open</StateName>
+				<StateValue>0</StateValue>
+			  </State>
+			  <State>
+				<StateName>Connected</StateName>
+				<StateValue>1</StateValue>
+			  </State>
+			</States>
+		  </Group>
+		<Group>
+			<Name>OutputStatesSimOnly</Name>
+			<Channels>
+			  <Channel>
+				<Name>Test LGCU L Power High State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU L Power High State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Test LGCU N Power High State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU N Power High State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Test LGCU Panel Power High State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Test LGCU Panel Power High State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU L WoW State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU L WoW State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU N WoW State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU N WoW State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU Panel UP Command State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU Panel UP Command State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU Panel Down Command State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU Panel Down Command State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU L Up Limit State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU L Up Limit State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU L Down Limit State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU L Down Limit State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU N Up Limit State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU N Up Limit State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto LGCU N Down Limit State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto LGCU N Down Limit State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto DCU Cockpit Lever Up State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto DCU Cockpit Lever Up State</Path>
+			  </Channel>
+			  <Channel>
+				<Name>Proto DCU Cockpit Lever Down State</Name>
+				<Path>Targets/Controller/Custom Devices/Switch/OutputStates/Proto DCU Cockpit Lever Down State</Path>
+			  </Channel>
+			</Channels>
+			<Subgroups/>
+			<States>
+			  <State>
+				<StateName>Open</StateName>
+				<StateValue>0</StateValue>
+			  </State>
+			  <State>
+				<StateName>Connected</StateName>
+				<StateValue>1</StateValue>
+			  </State>
+			</States>
+		  </Group>
+	  </Subgroups>
+	  <States>
+      <State>
+        <StateName>Open</StateName>
+        <StateValue>0</StateValue>
+      </State>
+      <State>
+        <StateName>Connected</StateName>
+        <StateValue>1</StateValue>
+      </State>
+    </States>
+	  </Group>
+</Groups>

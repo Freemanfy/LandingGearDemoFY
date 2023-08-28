@@ -1,0 +1,30 @@
+Aliases/altitude	Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 5 (SLSC SET Arinc429)/J1/ARINC Tx/CH 6/Altitude/Word/Altitude
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Torque DutyCycle	Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/Nose Torque (0-1)
+Targets/Controller/Calculated Channels/Panel RealSim Up Command	Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel UP Command
+Targets/Controller/Calculated Channels/Panel RealSim Down Command	Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel Down Command
+Targets/Controller/User Channels/Power	Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Ground 
+Targets/Controller/Calculated Channels/Gear Fault Open//Connected	Targets/Controller/Custom Devices/Switch/InputStates/Test LGCU N Motor Current State1
+Targets/Controller/Calculated Channels/Groupswitch Gear	Targets/Controller/Custom Devices/Group Switching/Gear RealSim/Gear RealSim Switch
+Targets/Controller/Calculated Channels/Groupswitch Panel	Targets/Controller/Custom Devices/Group Switching/Panel RealSim/Panel RealSim Switch
+Targets/Controller/User Channels/Power	Targets/Controller/Custom Devices/Group Switching/SimStates/SimStates Switch
+Aliases/altitude	Targets/Controller/Custom Devices/LGCU Interrogation Port/Altitude_000
+Aliases/altitude	Targets/Controller/Simulation Models/Models/Gear Model N/Inports/Altitude
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Torque DutyCycle	Targets/Controller/Simulation Models/Models/Gear Model N/Inports/Torque
+Targets/Controller/Calculated Channels/Buzzer Check	Targets/Controller/Simulation Models/Models/Gear Model N/Inports/Sleep
+Aliases/altitude	Targets/Controller/Simulation Models/Models/Gear Model LR/Inports/Altitude
+Aliases/Proto LGCU Panel Down Command	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Gear Up Command
+Aliases/Proto LGCU Panel UP Command	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Gear Down Command
+Targets/Controller/User Channels/Sleep	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/Sleep In
+Aliases/Proto LGCU N Resolver	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Gear Position
+Aliases/altitude	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/Altitude
+Targets/Controller/Simulation Models/Models/Gear Model N/Outports/Gear Position	Aliases/Test LGCU N Resolver
+Targets/Controller/User Channels/Power	Aliases/Proto LGCU 28V Power A
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Panel Lamp G	Aliases/Proto LGCU L Lamp G
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Panel Lamp R	Aliases/Proto LGCU L Lamp R
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Panel Lamp G	Aliases/Proto LGCU N Lamp G
+Targets/Controller/Simulation Models/Models/ECU Model N/Outports/Panel Lamp R	Aliases/Proto LGCU N Lamp R
+Targets/Controller/User Channels/Power	Aliases/Proto LGCU IND GRN
+Targets/Controller/Calculated Channels/Error	Aliases/Proto LGCU Error Lamp
+Targets/Controller/Calculated Channels/Buzzer Check	Aliases/Proto LGCU Buzz
+Targets/Controller/User Channels/Power	Aliases/Proto DCU IND GRN
+Targets/Controller/User Channels/altitude	Aliases/altitude

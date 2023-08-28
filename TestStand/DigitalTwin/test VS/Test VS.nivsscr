@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F3ED2F31EF9C36010184D349B6FBBFF1" Timestamp="1D909EC4C15D8F8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.0.0.1" Version="6.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.3" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="VeriStand UI Manager Controls" Name="http://www.ni.com/Controls.VeriStand.Design" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.1.0.7" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="VeriStand UI Manager Screen" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" OldestCompatibleVersion="4.8.0.2" Version="4.8.0.49152" />
+		<ApplicationVersionInfo Build="6.1.0.52304" Name="VeriStand.UIManager" Version="6.1.0.52304" />
+	</SourceModelFeatureSet>
+	<Screen Id="2" Version="6.0.0.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
+		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<VeriStandChart BaseName="[string]Chart" Height="[float]647" Id="3" Label="[UIModel]15" Left="[float]702" PreferIndexData="[bool]False" RecordTime="[uint]10" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]371" Width="[float]956" xmlns="http://www.ni.com/Controls.VeriStand.Design">
+				<HmiChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="4" Label="[string]X" MajorDivisions="[UIModel]7" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="7" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVTime" Format="h:mm:ss.fff tt" />
+					</RangeLabeledDivisions>
+				</HmiChartAxis>
+				<HmiChartAxis Adjuster="[RangeAdjuster]GrowLoosely" Id="5" Label="[string]Amplitude" MajorDivisions="[UIModel]8" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 1, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="8" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" />
+					</RangeLabeledDivisions>
+				</HmiChartAxis>
+				<VeriStandChartPlot Channel="[string]Targets/Controller/Simulation Models/Models/ECU Model Pharlap/Outports/Torque DutyCycle" HorizontalScale="[UIModel]4" Id="18" IsDefaultPlot="[bool]False" Label="[string]Torque DutyCycle" VerticalScale="[UIModel]5">
+					<PlotRenderer Id="19" LineStroke="[SMSolidColorBrush]#ff7b161a" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</VeriStandChartPlot>
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]3" Height="[float]28" Id="9" Left="[float]1665" TabIndex="[int]1" Top="[float]371" />
+			<HmiChartCursorLegend Graph="[UIModel]3" Height="[float]80" Id="10" Left="[float]707" MinHeight="[float]80" TabIndex="[int]2" Top="[float]1047" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]3" Height="[float]52" Id="11" Left="[float]1583" MinHeight="[float]50" TabIndex="[int]3" Top="[float]1025" Visible="[bool]False" />
+			<GraphTools Graph="[UIModel]3" Id="12" Left="[float]707" TabIndex="[int]4" Top="[float]1025" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="15" LabelOwner="[UIModel]3" Left="[float]702" TabIndex="[int]5" Text="[string]Chart" Top="[float]351" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Channel="[string]Targets/Controller/Simulation Models/Models/ECU Model Pharlap/Inports/ Gear Up Command" Height="[float]24" Id="24" Label="[UIModel]25" Left="[float]173" MinHeight="[float]24" TabIndex="[int]6" Top="[float]242" UnitAnnotation="[string]" Value="[double]1" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="25" LabelOwner="[UIModel]24" Left="[float]173" TabIndex="[int]7" Text="[string] Gear Up Command" Top="[float]222" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Channel="[string]Targets/Controller/Simulation Models/Models/ECU Model Pharlap/Inports/ Gear Down Command" Height="[float]24" Id="26" Label="[UIModel]27" Left="[float]173" MinHeight="[float]24" TabIndex="[int]8" Top="[float]299" UnitAnnotation="[string]" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="27" LabelOwner="[UIModel]26" Left="[float]173" TabIndex="[int]9" Text="[string] Gear Down Command" Top="[float]279" Width="[float]121" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelKnob BaseName="[string]Knob" Channel="[string]Targets/Controller/Simulation Models/Models/ECU Model Pharlap/Inports/ Gear Position" Height="[float]388" Id="30" IsLabelBoundToChannel="[bool]False" Label="[UIModel]31" Left="[float]165" Maximum="[double]150" MinHeight="[float]90" MinWidth="[float]90" ScaleArc="[ArcSweep]210,-240" TabIndex="[int]10" Top="[float]385" Value="[double]136.20797394635755" ValueType="[Type]Double" Width="[float]388" />
+			<Label Height="[float]16" Id="31" LabelOwner="[UIModel]30" Left="[float]165" TabIndex="[int]11" Text="[string]Knob" Top="[float]365" Width="[float]28" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Channel="[string]Targets/Controller/Simulation Models/Models/ECU Model Pharlap/Inports/ Gear Position" Height="[float]24" Id="36" Label="[UIModel]37" Left="[float]483" MinHeight="[float]24" TabIndex="[int]13" Top="[float]772" UnitAnnotation="[string]" Value="[double]137.20797394635755" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="37" LabelOwner="[UIModel]36" Left="[float]483" TabIndex="[int]13" Text="[string] Gear Position" Top="[float]752" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>

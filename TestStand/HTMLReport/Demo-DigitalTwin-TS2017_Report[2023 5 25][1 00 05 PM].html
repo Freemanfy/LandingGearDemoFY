@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
+<head> <meta http-equiv="content-type" content="text/html; charset=gb2312"> <title>Report</title>
+<style type="text/css">
+div{left:40px;position:relative;}
+table {border:1px solid;width:70%;}
+table.hdr {border:none;width:70%;}
+td {border:1px solid;}
+td.hdr_name {border:none;white-space:nowrap;}
+td.hdr_value {border:none;}
+td.value {width:37%; font-size:82%; vertical-align:top;}
+td.label {font-size:82%; vertical-align:top;} 
+td.separator {border-style:none; height:1px;}
+</style>
+</head>
+<body style="font-family:verdana;">
+<a name="-1-2023-5-25-13-0-5-910"></a><h3>UUT Report</h3>
+<table class='hdr'><tbody>
+<tr><td class='hdr_name'><b>Station ID: </b></td><td class='hdr_value'><b>DESKTOP-TK7VET4</b></td></tr>
+<tr><td class='hdr_name'><b>Serial Number: </b></td><td class='hdr_value'><b>NONE</b></td></tr>
+<tr><td class='hdr_name'><b>Date: </b></td><td class='hdr_value'><b>Thursday, May 25, 2023</b></td></tr>
+<tr><td class='hdr_name'><b>Time: </b></td><td class='hdr_value'><b>1:00:05 PM</b></td></tr>
+<tr><td class='hdr_name'><b>Operator: </b></td><td class='hdr_value'><b>administrator</b></td></tr>
+<tr><td class='hdr_name'><b>Execution Time: </b></td><td class='hdr_value'><b>3.9867855 seconds</b></td></tr>
+<tr><td class='hdr_name'><b>Number of Results: </b></td><td class='hdr_value'><b>6</b></td></tr>
+<tr><td class='hdr_name'><b>UUT Result: </b></td><td class='hdr_value'><b><span style="color:#FF0000;">Error</span></b>, Error executing substep 'ModelParameterValueSet'.
+ni-veristand-steps-runtime-lib.lvlibp:ModelParameterValueSet.vi.ProxyCaller >> ni-veristand-steps-runtime-lib.lvlibp:ModelParameterValueSet.vi >> ni-veristand-steps-runtime-lib.lvlibp:NI_VS ModelManager ExecutionAPI.lvlib:NI VeriStand - Set Single Parameter Value.vi
+=========================
+NI VeriStand:  ModelServices.lvlib:ESetParametersValues.vi.ProxyCaller >> ModelServices.lvlib:ESetParametersValues.vi:1050002 >> Server TCP Interface.lvlib:TCP Send Target System Command.vi:5680001 >> Server TCP Interface.lvlib:TCP Send Target Message.vi:890001
+=========================
+NI VeriStand:  Controller
+NI VeriStand: Could not complete one or more requests because a target is offline. [Error Code: -307682, User-defined error code.]</td></tr>
+</tbody></table><br><hr style="color:#8000CC;background-color:#8000CC;border-width:0;width:50%;height:3px;text-align:left;margin-left:0;">
+<div>
+<h5 style="white-space:nowrap;">Begin Sequence: MainSequence
+<br>(C:\Users\NI\Desktop\LandingGearDemo - Backup\TestStand\Demo-DigitalTwin-TS2017.seq)<br></h5>
+<table style="border-color:#000000;"><tbody>
+<tr><td colspan='2' style="border-color:#000000;background-color:#FF8000;">Initialize VeriStand</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#FFFF00;">Skipped</td></tr>
+<tr><td class='separator' style="background-color:#000000;" colspan = '2'></td></tr>
+<tr><td colspan='2' style="border-color:#000000;background-color:#FF8000;">Start Veristand</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#00FFCC;">Done</td></tr>
+<tr><td class='separator' style="background-color:#000000;" colspan = '2'></td></tr>
+<tr><td colspan='2' style="border-color:#000000;background-color:#FF8000;">Open References</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#00FFCC;">Done</td></tr>
+<tr><td class='separator' style="background-color:#000000;" colspan = '2'></td></tr>
+<tr><td colspan='2' style="border-color:#000000;background-color:#FF8000;">Set Model Parameter Value</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#FF0000;">Error</td></tr>
+<tr><td class='label' colspan='2' style="border-color:#000000;background-color:#FF0000;">Error Message:            Error executing substep 'ModelParameterValueSet'.<br>ni-veristand-steps-runtime-lib.lvlibp:ModelParameterValueSet.vi.ProxyCaller >> ni-veristand-steps-runtime-lib.lvlibp:ModelParameterValueSet.vi >> ni-veristand-steps-runtime-lib.lvlibp:NI_VS ModelManager ExecutionAPI.lvlib:NI VeriStand - Set Single Parameter Value.vi<br>=========================<br>NI VeriStand:  ModelServices.lvlib:ESetParametersValues.vi.ProxyCaller >> ModelServices.lvlib:ESetParametersValues.vi:1050002 >> Server TCP Interface.lvlib:TCP Send Target System Command.vi:5680001 >> Server TCP Interface.lvlib:TCP Send Target Message.vi:890001<br>=========================<br>NI VeriStand:  Controller<br>NI VeriStand: Could not complete one or more requests because a target is offline. [Error Code: -307682]</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">ValueSet:</td>
+<td class='value' style="border-color:#000000;background-color:#32FFFF;"><span style='white-space:nowrap;'>1.1858</span></td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">ParameterSet:</td>
+<td class='value' style="border-color:#000000;background-color:#32FFFF;">Coeff</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Target:</td>
+<td class='value' style="border-color:#000000;background-color:#32FFFF;">Controller</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Description:</td>
+<td class='value' style="border-color:#000000;background-color:#32FFFF;">''</td></tr>
+<tr><td class='separator' style="background-color:#000000;" colspan = '2'></td></tr>
+<tr><td colspan='2' style="border-color:#000000;background-color:#ADD8E6;">Stop VS Logging</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#FF0000;">Error</td></tr>
+<tr><td class='label' colspan='2' style="border-color:#000000;background-color:#FF0000;">Error Message:            Error executing substep 'Post'.<br>ni-veristand-steps-runtime-lib.lvlibp:Stop Logging.vi.ProxyCaller >> ni-veristand-steps-runtime-lib.lvlibp:Stop Logging.vi >> ni-veristand-steps-runtime-lib.lvlibp:NI_VS Data Logging API.lvlib:Stop Data Logging Session.vi<br>=========================<br>NI VeriStand:  TS VS Logger handle 0417<br>NI VeriStand: The specified data logging session does not exist. [Error Code: -307865]</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Location[0..empty]:</td>
+<td class='value' style="border-color:#000000;background-color:#32FFFF;">&nbsp;</td></tr>
+<tr><td class='separator' style="background-color:#000000;" colspan = '2'></td></tr>
+<tr><td colspan='2' style="border-color:#000000;background-color:#ADD8E6;">Stop VeriStand</td></tr>
+<tr><td class='label' style="border-color:#000000;background-color:#FFFFFF;">Status:                   </td>
+<td class='value' style="border-color:#000000;background-color:#FFFF00;">Skipped</td></tr>
+</tbody></table><br>
+<h5 style="white-space:nowrap;">End Sequence: MainSequence</h5>
+</div>
+<h3>End UUT Report</h3> <hr style="color:#0000E0;background-color:#0000E0;border-width:0;width:90%;height:5px;">
+</body>
+</html>

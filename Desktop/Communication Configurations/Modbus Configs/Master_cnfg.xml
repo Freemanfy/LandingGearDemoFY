@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file is for a TCP Master instance -->
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Master</Modbus_Type>
+		<Communication_Type>Serial</Communication_Type>
+		<Read_Write_Loop_Period>1000</Read_Write_Loop_Period>
+		<Serial_Settings_Resource_Name>ASRL3::INSTR</Serial_Settings_Resource_Name>
+		<Serial_Settings_Unit_ID>3</Serial_Settings_Unit_ID>
+		<Serial_Settings_Serial_Type>RTU</Serial_Settings_Serial_Type>
+		<Serial_Settings_Baud_Rate>9600</Serial_Settings_Baud_Rate>
+		<Serial_Settings_Parity>None</Serial_Settings_Parity>
+		<Serial_Settings_Flow_Control>None</Serial_Settings_Flow_Control>
+	</General_Settings>
+	<Modbus_Items>
+			<Read_Coils>
+				<Base_Name>Weight_on_Wheels</Base_Name>
+				<Starting_Address>10</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>Retract_Limit</Base_Name>
+				<Starting_Address>11</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>Extend_Limit</Base_Name>
+				<Starting_Address>12</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>LGCU_Fault</Base_Name>
+				<Starting_Address>13</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>Buzzer</Base_Name>
+				<Starting_Address>14</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>Up_Command</Base_Name>
+				<Starting_Address>15</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>Down_Command</Base_Name>
+				<Starting_Address>16</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Coils>			
+			<Read_Holding_Registers>
+				<Base_Name>Airspeed</Base_Name>
+				<Starting_Address>50</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Holding_Registers>
+			<Read_Holding_Registers>
+				<Base_Name>Altitude</Base_Name>
+				<Starting_Address>51</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Holding_Registers>
+			<Read_Holding_Registers>
+				<Base_Name>Min_Angle</Base_Name>
+				<Starting_Address>52</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Holding_Registers>
+			<Read_Holding_Registers>
+				<Base_Name>Max_Angle</Base_Name>
+				<Starting_Address>53</Starting_Address>
+				<Quantity>1</Quantity>
+			</Read_Holding_Registers>			
+			</Modbus_Items>
+</Modbus_Custom_Device>

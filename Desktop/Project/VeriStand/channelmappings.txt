@@ -1,0 +1,16 @@
+Targets/Controller/Calculated Channels/PCL Period	Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/PCL Loop Period (ms)
+Targets/Controller/Calculated Channels/Panel RealSim Up Command	Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel UP Command
+Targets/Controller/Calculated Channels/Panel RealSim Down Command	Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel Down Command
+Aliases/Test LGCU Panel UP Command	Targets/Controller/Simulation Models/Models/ECU Model LR/Inports/ Gear Up Command
+Aliases/Test LGCU Panel Down Command	Targets/Controller/Simulation Models/Models/ECU Model LR/Inports/ Gear Down Command
+Aliases/altitude	Targets/Controller/Simulation Models/Models/ECU Model LR/Inports/Altitude
+Aliases/Test LGCU Panel Down Command	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Gear Down Command
+Aliases/Test LGCU Panel UP Command	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Gear Up Command
+Aliases/Test LGCU L Extend Limit	Targets/Controller/Simulation Models/Models/ECU Model LR/Inports/Bottom Limit In
+Aliases/Test LGCU L Retract Limit	Targets/Controller/Simulation Models/Models/ECU Model LR/Inports/ Top Limit In
+Aliases/Test LGCU N Extend Limit	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/Bottom Limit In
+Aliases/Test LGCU N ECU Retract Limit	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/ Top Limit In
+Aliases/altitude	Targets/Controller/Simulation Models/Models/ECU Model N/Inports/Altitude
+Aliases/Test LGCU L Motor Current	Targets/Controller/Simulation Models/Models/Gear Model LR/Inports/Torque
+Aliases/Test LGCU N Motor Current	Targets/Controller/Simulation Models/Models/Gear Model N/Inports/Torque
+Aliases/altitude	Targets/Controller/Simulation Models/Models/Gear Model N/Inports/Altitude

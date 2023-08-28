@@ -1,0 +1,75 @@
+Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 8 (SLSC-BCI-VDT)/J2/Resolver/Rotor Angle	Test LGCU L Resolver
+Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 8 (SLSC-BCI-VDT)/J1/Resolver/Rotor Angle	Test LGCU N Resolver
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU L Weight on Wheels	Test LGCU L Weight on Wheels
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU L Extend Limit	Test LGCU L Extend Limit
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU L Retract Limit	Test LGCU L Retract Limit
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N Weight on Wheels	Test LGCU N Weight on Wheels
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N Extend Limit	Test LGCU N Extend Limit
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU N ECU Retract Limit	Test LGCU N ECU Retract Limit
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel UP Command	Test LGCU Panel UP Command
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Panel Down Command	Test LGCU Panel Down Command
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU 28V Power A	Proto LGCU 28V Power A
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU 28V Power B	Proto LGCU 28V Power B
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU L Lamp G	Proto LGCU L Lamp G
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU L Lamp R	Proto LGCU L Lamp R
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU N Lamp G	Proto LGCU N Lamp G
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU N Lamp R	Proto LGCU N Lamp R
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU WoW Lamp	Proto LGCU WoW Lamp
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU IND GRN	Proto LGCU IND GRN
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU IND RED	Proto LGCU IND RED
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU Error Lamp	Proto LGCU Error Lamp
+Targets/Controller/Custom Devices/Switch/Discretes/Proto LGCU Buzz	Proto LGCU Buzz
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU 28V Power A	Proto DCU 28V Power A
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU 28V Power B	Proto DCU 28V Power B
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU L Lamp G	Proto DCU L Lamp G
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU L Lamp R	Proto DCU L Lamp R
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU N Lamp G	Proto DCU N Lamp G
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU N Lamp R	Proto DCU N Lamp R
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU WoW Lamp	Proto DCU WoW Lamp
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU Error Lamp	Proto DCU Error Lamp
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU Buzz	Proto DCU Buzz
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU IND GRN	Proto DCU IND GRN
+Targets/Controller/Custom Devices/Switch/Discretes/Proto DCU IND RED	Proto DCU IND RED
+Targets/Controller/Custom Devices/Switch/Discretes/Test LGCU Ground 	Test LGCU Ground 
+Targets/Controller/User Channels/Test LGCU-DCU ARINC TX	Test LGCU-DCU ARINC TX
+Targets/Controller/User Channels/Test LGCU-DCU ARINC RX	Test LGCU-DCU ARINC RX
+Targets/Controller/User Channels/Test DCU-ROP ARINC RX	Test DCU-ROP ARINC RX
+Targets/Controller/User Channels/Test LGCU - Interrogation Port	Test LGCU - Interrogation Port
+Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 4 (SLSC-BCI-LOAD)/J1/Channel 6/Isense	Test LGCU L Motor Current
+Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 4 (SLSC-BCI-LOAD)/J1/Channel 7/Isense	Test LGCU N Motor Current
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel L Lamp G	Test LGCU Panel L Lamp G
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel L Lamp R	Test LGCU Panel L Lamp R
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel N Lamp G	Test LGCU Panel N Lamp G
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel N Lamp R	Test LGCU Panel N Lamp R
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel WoW Lamp	Test LGCU Panel WoW Lamp 
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel Error Lamp	Test LGCU Panel Error Lamp
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU Panel Buzzer	Test LGCU Panel Buzzer
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear ECU L Power High	Test LGCU L Power High
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear Nose Power High	Test LGCU N Power High
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Test Gear Panel Power High	Test LGCU Panel Power High
+Targets/Controller/User Channels/Proto LGCU Interrogation Port	Proto LGCU Interrogation Port
+Targets/Controller/User Channels/Proto LGCU-DCU ARINC RX	Proto LGCU-DCU ARINC RX
+Targets/Controller/User Channels/Proto LGCU-DCU ARINC TX	Proto LGCU-DCU ARINC TX
+Targets/Controller/Custom Devices/4340 2CH Resolver/Measurement.Out/Angle 1 Out	Proto LGCU L Resolver
+Targets/Controller/User Channels/Proto LGCU L Motor Command Fwd	Proto LGCU L Motor Command Fwd
+Targets/Controller/User Channels/Proto LGCU L Motor Command Rev	Proto LGCU L Motor Command Rev
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU L WoW	Proto LGCU L WoW
+Targets/Controller/Custom Devices/4340 2CH Resolver/Measurement.Out/Angle 2 Out	Proto LGCU N Resolver
+Targets/Controller/User Channels/Proto LGCU N Motor Command Fwd	Proto LGCU N Motor Command Fwd
+Targets/Controller/User Channels/Proto LGCU N Motor Command Rev	Proto LGCU N Motor Command Rev
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU N WoW	Proto LGCU N WoW
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU Panel UP Command	Proto LGCU Panel UP Command
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU Panel Down Command	Proto LGCU Panel Down Command
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU L Up Limit	Proto LGCU L Up Limit
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU L Down Limit	Proto LGCU L Down Limit
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU N Up Limit	Proto LGCU N Up Limit
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Gear ECU N Down Limit	Proto LGCU N Down Limit
+Targets/Controller/User Channels/Proto LGCU Motor Sleep	Proto LGCU Motor Sleep
+Targets/Controller/User Channels/Proto LGCU Motor Fault	Proto LGCU Motor Fault
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Cockpit DCU Cockpit Lever Up	Proto DCU Cockpit Lever Up
+Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Proto Cockpit DCU Cockpit Lever Down	Proto DCU Cockpit Lever Down
+Targets/Controller/User Channels/Proto DCU-LGCU ARINC RX	Proto DCU-LGCU ARINC RX
+Targets/Controller/User Channels/Proto DCU-LGCU ARINC TX	Proto DCU-LGCU ARINC TX
+Targets/Controller/User Channels/Proto DCU-ROP ARINC TX	Proto DCU-ROP ARINC TX
+Targets/Controller/User Channels/altitude	altitude
+Targets/Controller/User Channels/airspeed	airspeed

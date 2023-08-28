@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file is for a TCP Master instance -->
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Slave</Modbus_Type>
+		<Communication_Type>Serial</Communication_Type>
+		<Read_Write_Loop_Period>25</Read_Write_Loop_Period>
+		<Serial_Settings_Resource_Name>ASRL4::INSTR</Serial_Settings_Resource_Name>
+		<Serial_Settings_Unit_ID>3</Serial_Settings_Unit_ID>
+		<Serial_Settings_Serial_Type>RTU</Serial_Settings_Serial_Type>		
+		<Serial_Settings_Baud_Rate>9600</Serial_Settings_Baud_Rate>
+		<Serial_Settings_Parity>None</Serial_Settings_Parity>
+		<Serial_Settings_Flow_Control>None</Serial_Settings_Flow_Control>
+	</General_Settings>
+	<Modbus_Items>
+			<Write_Single_Coil>
+				<Base_Name>Weight_on_Wheels</Base_Name>
+				<Address>10</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>Retract_Limit</Base_Name>
+				<Address>11</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>Extend_Limit</Base_Name>
+				<Address>12</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>LGCU_Fault</Base_Name>
+				<Address>13</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>Buzzer</Base_Name>
+				<Address>14</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>Up_Command</Base_Name>
+				<Address>15</Address>
+			</Write_Single_Coil>
+			<Write_Single_Coil>
+				<Base_Name>Down_Command</Base_Name>
+				<Address>16</Address>
+			</Write_Single_Coil>			
+			<Write_Single_Holding_Register>
+				<Base_Name>Airspeed</Base_Name>
+				<Address>50</Address>
+			</Write_Single_Holding_Register>
+			<Write_Single_Holding_Register>
+				<Base_Name>Altitude</Base_Name>
+				<Address>51</Address>
+			</Write_Single_Holding_Register>
+			<Write_Single_Holding_Register>
+				<Base_Name>Min_Angle</Base_Name>
+				<Address>52</Address>
+			</Write_Single_Holding_Register>
+			<Write_Single_Holding_Register>
+				<Base_Name>Max_Angle</Base_Name>
+				<Address>53</Address>
+			</Write_Single_Holding_Register>			
+	</Modbus_Items>
+</Modbus_Custom_Device>
