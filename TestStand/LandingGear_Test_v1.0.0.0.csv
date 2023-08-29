@@ -3,8 +3,8 @@
 #Aliases,,,,
 Aliase,VeriStand Channel Name,,,
 N Motor Current,Aliases/Test LGCU N Motor Current,,,
-N Resolver Setpoint,Aliases/Calibrated Test Gear Degree,,,
-N Resolver PV,Aliases/Calibrated Proto Gear Degree,,,
+N Resolver Setpoint,Aliases/Test LGCU N Resolver,,,
+N Resolver PV,Aliases/Proto LGCU N Resolver,,,
 ,,,,
 #NumericLimitTest,,,,
 Test Name,Channel Name,Low Limit,High Limit,Report Table Bookmark
